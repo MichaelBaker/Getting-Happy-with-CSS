@@ -1,0 +1,59 @@
+-- Start With --
+http://caniuse.com/
+
+-- HTML --
+Why should we care about semantics?
+  Accessibility mostly
+  Different formats for viewing documents
+You can make up your own tags!(sort of)
+
+-- CSS --
+What is CSS?: A presentation language designed to format HTML.
+  Modern convention for web development: HTML for structure, CSS for design, Javascript for behavior.
+  
+Three ways to include CSS, inline, embedded, external <link rel = "stylesheet" href = "sheet.css" />
+
+Basic syntax:
+/* Comment */
+selector {
+  property1:value1;
+  property2:value2;
+  property3:value3;
+}
+
+-- Selectors --
+Selectors are patterns that will attempt to match nodes in the DOM
+
+Comma separated selectors
+. matches classes
+# matches ids
+. and # can be used in isolation or with tags
+Universal selector:        *
+Attribute selectors:       tag[attr="value"]
+Child selectors:           >
+Descendent selectors       space
+Adjacent sibling selectors +
+Pseudo-classes
+Pseudo-elements
+
+-- Properties --
+Property shorthand
+inheritance
+The cascade: Importance, Specificity, Order
+Em - multiplicative, height of a line
+font-families: serif, sans-serif, monospace
+box model: padding, margin, border
+
+-- Positioning --
+Static
+Fixed
+Relative
+Absolute
+
+-- Less important stuff --
+Hugh Laurie
+Importance: !important
+@import
+@font-face
+@media
+animation
