@@ -9,6 +9,10 @@ position: relative;
 position: absolute;
 */
 
+div {
+  display: inline-block;
+}
+
 #red {
   background: red;
   z-index:    4;
@@ -61,6 +65,7 @@ position: absolute;
 }
 
 body {
+  position: relative;
   height: 1000px;
 }
 

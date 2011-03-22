@@ -1,10 +1,13 @@
 #red {
+  position:   relative;
   width:      400px;
   height:     400px;
   background: red;
 }
 
 #blue {
+  position:   absolute;
+  bottom:     0;
   width:      200px;
   height:     200px;
   background: blue;
@@ -21,22 +24,7 @@
   margin:  0;
 }
 
-body {
-  height: 1000px;
-}
-
 div {
   width:  200px;
   height: 200px;
-}
-
-span {
-  position:    relative;
-  top:         80px;
-  display:     inline-block;
-  width:       200px;
-  text-align:  center;
-  font-family: Monospace;
-  font-size:   30px;
-  font-weight: bold;
 }

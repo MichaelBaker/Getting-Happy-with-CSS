@@ -1,5 +1,21 @@
 -- Start With --
-http://caniuse.com/
+WHAT BROWSERS WORK?! - http://caniuse.com/
+Source               - http://goo.gl/HHFr6
+                       or
+                         https://github.com/Twernmilt/Getting-Happy-with-CSS
+Selector tester      - http://goo.gl/4OO7k
+                       or
+                       http://dl.dropbox.com/u/8925091/Sandbox/Sandbox.html
+
+
+
+
+
+
+
+
+
+
 
 -- HTML --
 Why should we care about semantics?
@@ -7,11 +23,21 @@ Why should we care about semantics?
   Different formats for viewing documents
 You can make up your own tags!(sort of)
 
+
+
+
+
+
+
+
+
+
+
+
 -- CSS --
 What is CSS?: A presentation language designed to format HTML.
   Modern convention for web development: HTML for structure, CSS for design, Javascript for behavior.
   
-Three ways to include CSS, inline, embedded, external <link rel = "stylesheet" href = "sheet.css" />
 
 Basic syntax:
 /* Comment */
@@ -21,34 +47,158 @@ selector {
   property3:value3;
 }
 
+Three ways to include CSS
+  inline
+  <span style = "background: red" />
+  
+  embedded
+  <head>
+    <style type="text/css"> 
+      span {
+        background: red;
+      }
+    </style>
+  </head>
+  
+  external
+  <link rel = "stylesheet" href = "sheet.css" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Selectors --
 Selectors are patterns that will attempt to match nodes in the DOM
 
+Tag selectors
+  p
+  li
+  wicked
 Comma separated selectors
+  p, h1
 . matches classes
+  .important
 # matches ids
+  #awesome
 . and # can be used in isolation or with tags
-Universal selector:        *
-Attribute selectors:       tag[attr="value"]
-Child selectors:           >
-Descendent selectors       space
-Adjacent sibling selectors +
+  span.important
+Universal selector: *
+  *
+Descendent selectors: space
+  p *
+Attribute selectors: tag[attr="value"]
+  li[name]
+Child selectors: >
+  ul > li
+Adjacent sibling selectors: +
+  span + strong
 Pseudo-classes
+  span:hover
 Pseudo-elements
+  span:first
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Properties --
 Property shorthand
 inheritance
-The cascade: Importance, Specificity, Order
-Em - multiplicative, height of a line
-font-families: serif, sans-serif, monospace
+The cascade:   Importance, Specificity, Order
+border: 1px solid black
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: black;
 box model: padding, margin, border
+           http://css-tricks.com/the-css-box-model/
+margin: auto used for centering horizontally
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Positioning --
 Static
+  Nothing to show, feh
 Fixed
+  Four corners position1
 Relative
+  Box stair step
 Absolute
+  Four corners boxes again
+positioning-context!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Display --
+block
+  like paragraphs
+inline
+  like text
+inline-block
+  like text with children
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Less important stuff --
 Hugh Laurie

@@ -1,0 +1,18 @@
+Selector challenges:
+  Select the tags with ids of fantastic, a class of 'wut', or a tag of <ol>.
+  Select only the <li> tags for the list of predatory cats.
+  Select all <li> tags except the first one in each list.
+  Select the <li name = "1929"> element, the first three spans, and the image with one selector.
+
+Position challenges:
+
+
+  Position1:
+    Position all of the boxes in a stair-step fashion using relative positioning.
+    Position all of the boxes in a stair-step fashion using absolute positioning.
+    Position all of the boxes in a stair-step fashion using fixed positioning.
+    
+    
+  Position2:
+    Position the blue box in the lower right corner of the window leaving the red box unaffected.
+    Position the yellow box in the center of the blue box and the blue box in the center of the red box and the red box in the center of the window.
