@@ -1,11 +1,7 @@
 -- Start With --
 WHAT BROWSERS WORK?! - http://caniuse.com/
-Source               - http://goo.gl/HHFr6
-                       or
-                         https://github.com/Twernmilt/Getting-Happy-with-CSS
-Selector tester      - http://goo.gl/4OO7k
-                       or
-                       http://dl.dropbox.com/u/8925091/Sandbox/Sandbox.html
+Source               - https://github.com/MichaelBaker/Getting-Happy-with-CSS
+Selector tester      - http://dl.dropbox.com/u/8925091/Sandbox/Sandbox.html
 
 
 
